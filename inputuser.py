@@ -10,6 +10,8 @@ databoolangka = input("Masukan angka : ")
 tampilangka = int(databoolangka)
 databoolkata = input("Masukan kata : ")
 tampilkata = str(databoolkata)
+
+
 print("Angka : ", tampilangka, ",Boolean Angka :", databoolangka, "Tipe : ", type(databoolangka))
 print( "Kata : ", tampilkata, ",Boolean kata : ", databoolkata, "Tipe :", type(databoolkata))
 
