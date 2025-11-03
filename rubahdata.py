@@ -19,3 +19,4 @@ print("Data B : ", c, "Tipe : ", type(c))
 print("Data B : ", dataint, ", Tipe -", type(dataint))
 print("Data B menjadi :", datastring, "Tipe : ", type(datastring))
 print("Nilai Boolean : ", databool, "Tipe - ", type(databool))
+
