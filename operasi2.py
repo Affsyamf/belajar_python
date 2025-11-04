@@ -14,6 +14,13 @@ print("Cek : " + str(nama.isalpha()))
 print("Cek : " + str(nama.isascii()))
 print("Cek : " + str(nama.isdecimal()))
 print("Cek : " + str(nama.isalnum()))
+print("Cek : " + str(nama.isdigit()))
+print("Cek : " + str(nama.isspace()))
+
+name = nama.replace("Afif", "Eka")
+print(name)
+
+
 
 nama = ["Afif","Syam","Fauzi"]
 print(nama)
