@@ -8,7 +8,12 @@ if nama=="afif":
     print('ggwp')
 print(f"Terimakasih : {nama}")
 
-if nama=="misel":
-    print("Cantik")
+# if nama=="misel":
+#     print("Cantik")
+# else:
+#     print("Kamu bukan misel")
+    
+if nama=="afif":
+    print("gg")
 else:
-    print("Kamu bukan misel")
+    print("noob")
