@@ -18,3 +18,11 @@ else:
 
 print("end")
 
+if operator == "+":
+    hasil = angka1 + angka2
+    print(f"Hasilnya : {hasil}")
+elif operator == "*" or operator == "x":
+    hasil = angka1 * angka2
+    print(f"Hasil : {hasil}")
+else:
+    print("Operator tidak ada")
