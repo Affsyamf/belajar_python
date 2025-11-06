@@ -57,6 +57,7 @@ while True:
     if count > sisi:
         break
     
+    
 while True:
     if (count % 2):
         spasi += 1
