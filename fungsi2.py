@@ -50,3 +50,19 @@ print(f"Kali : {c}")
 print(f"Bagi : {d}")
 
 
+def operasi(angka1, angka2):
+    tambah = angka1 + angka2
+    kali = angka1 * angka2
+    kurang = angka1 - angka2
+    bagi = angka1 / angka2
+    mod = angka1 % angka2
+    return tambah, kali, kurang, bagi, mod
+
+a, b, c, d, e = operasi(2,2)
+print(f"""
+Tambah  : {a:<5}
+Kali    : {b:<5}
+Kurang  : {c:<5}
+Bagi    : {d:<5}
+Modulus : {e:<5}      
+      """)
