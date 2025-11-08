@@ -18,3 +18,11 @@ angka(angka1 = 5)
 print(angka(angka1 = 1))
     
 angka(angka1=2)
+
+# contoh 3
+def angka(angka1, angka2 = 5):
+    hasil = angka1 + angka2
+    print(f"Hasil : {hasil}")
+    
+angka(2,3)
+angka(angka1=3)
