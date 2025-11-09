@@ -15,9 +15,10 @@ print(apa(4))
 # pengunaan type hints
 import string
 
-def sepuluh_pangkat(nilai:string) -> string:
+def sepuluh_pangkat(nilai: int) -> string:
     hasil = nilai ** 2
-    return hasil
+    to_str = str(hasil)
+    return to_str
 
 HASIL = sepuluh_pangkat(4)
 print(HASIL, type(HASIL))
